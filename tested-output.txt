@@ -1,0 +1,11 @@
+valid: billing (validated choice)
+low: review (below local threshold)
+fallback: review (fallback category)
+refusal: review (model refusal)
+unknown: review (unknown route)
+nan: review (invalid confidence)
+missing: review (missing or duplicate answer)
+duplicate: review (missing or duplicate answer)
+wrong-type: review (unexpected answer type)
+malformed: review (malformed envelope)
+All 10 fixture assertions passed.
